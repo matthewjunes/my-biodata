@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Biodata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MY BIO<span>DATA</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="achievement.html">Achievement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <h1>About Me</h1>
+    </header>
+
+    <!-- Content -->
+    <main class="container">
+        <div class="grid-2">
+            <div class="img-wrapper">
+                <!-- Replace with your photo -->
+                <img src="C:\Users\danielisyraf\OneDrive\Desktop\Muhammad Faheem Bin Mohd Fitri\New folder\image\image1.jpg" alt="My Photo">
+            </div>
+            <div class="text-wrapper">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Who Am I?</h2>
+                <p>Hello! I am <strong>My name is Muhammad Daniel Isyraf Bin Junaidy</strong>, I am 21 years old and I was born on Hospital Sultanah Bahiyah. I live in Alor Setar and I am from Kedah. I complete my primary education at Sekolah Kebangsaan Jalan Pegawai and my secondary education at Kolej Sultan Abdul Hamid where I studied Account. Currently, I am studying at University Technology Mara (UITM) Kedah and pursuing a course in Diploma Information Managment. In my free time, I enjoy fishing. My ambition is to become a administrative and Diplomatic Officer.                
+                <!-- Clickable Trigger -->
+                <div class="lightbox-trigger card" style="margin-top: 30px; text-align: left; border-left: 4px solid var(--accent-purple);" data-text="Throughout my life, I have faced different challenges and experiences that have helped me grow as a person. These experiences have taught me valuable lessons and motivated me to work hard toward my goals. In the future, I hope to become a the person are succes in my career and make my family proud while contributing positively to society.
+
+I believe that every journey has its ups and downs, and I am determined to keep learning, improving myself, and striving for a better future.">
+                    <h3>My Full Story</h3>
+                    <p class="click-more">Click to read more...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2026 My Biodata</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox-modal" id="textLightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <p id="lightboxText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

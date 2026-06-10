@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Biodata</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MY BIO<span>DATA</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="achievement.html">Achievement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Contact Me</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h2 class="section-title"><span>Get In Touch</span></h2>
+        
+        <div class="contact-box">
+            <!-- Left Side: Contact Info -->
+            <div class="contact-info">
+                <h3 style="margin-bottom: 30px; color: var(--neon-cyan);">Contact Information</h3>
+                
+                <p style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-envelope" style="margin-right: 15px; color: var(--warm-orange);"></i>
+                    <a href="danielisyraf25@gmail.com" style="color: var(--text-muted);">danielisyraf25@gmail.com</a>
+                </p>
+                
+                <p style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-phone" style="margin-right: 15px; color: var(--warm-orange);"></i>
+                    <span style="color: var(--text-muted);">+6016-321-2431</span>
+                </p>
+                
+                <p style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-map-marker-alt" style="margin-right: 15px; color: var(--warm-orange);"></i>
+                    <span style="color: var(--text-muted);">Alor Setar, Kedah, Malaysia</span>
+                </p>
+
+                <!-- Social Media Buttons -->
+                <div style="margin-top: 40px;">
+                    <h4 style="margin-bottom: 15px;">Follow Me</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/danielisyrff?utm_source=qr">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="http://www.tiktok.com/@dddfffd8">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/14f4UevNd9T/?mibextid=wwXIfr">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/daniel293472281?s=11">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Right Side: Google Map -->
+            <div class="map-wrapper">
+                <h3 style="margin-bottom: 20px; color: var(--neon-cyan);">Find Me Here</h3>
+                <div class="map-container">
+                    <!-- Google Map Embed (UiTM Shah Alam) -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.331974925233!2d101.50003551475838!3d3.068530300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4abc6752d49b%3A0x72e3d266b544b561!2sUiTM%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1645678901234!5m2!1sen!2smy" 
+                        width="100%" 
+                        height="350" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Message Form (Optional) -->
+        <div style="margin-top: 60px; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <h3 style="text-align: center; margin-bottom: 30px;">Or Send a Message</h3>
+            <form style="display: flex; flex-direction: column; gap: 20px;">
+                <input type="text" placeholder="Your Name" style="padding: 15px; border-radius: 8px; border: 1px solid #333; background: var(--bg-card); color: var(--text-main);">
+                <input type="email" placeholder="Your Email" style="padding: 15px; border-radius: 8px; border: 1px solid #333; background: var(--bg-card); color: var(--text-main);">
+                <textarea rows="5" placeholder="Your Message" style="padding: 15px; border-radius: 8px; border: 1px solid #333; background: var(--bg-card); color: var(--text-main);"></textarea>
+                <button type="button" style="padding: 15px; background: var(--warm-orange); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.3s;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2026 My Biodata. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
